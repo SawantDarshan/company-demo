@@ -372,6 +372,7 @@ strong {
   border: 1px solid #f4511e;
   border-radius: 5px;
   background-color: hsl(100, 90%, 99%);
+  margin: 1em;
 }
 .card-top {
   padding: 1em;
@@ -553,6 +554,10 @@ footer > div > strong {
     width: 100%;
   }
   #contact > article > form {
+    width: 100%;
+    flex-direction: column;
+  }
+  article>form>input{
     width: 100%;
   }
 }
